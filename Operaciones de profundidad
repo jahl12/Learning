@@ -1,0 +1,125 @@
+//AND &&//
+
+var currentTime = 10;
+console.log(currentTime > 9 && currentTime < 17);
+
+console.log(10 > 9 && 10 < 17);
+
+console.log(true && true);
+
+console.log(true && false)
+
+console.log(false && true) 
+
+console.log(false && false)
+
+//OR ||//
+
+var currentTime = 7;
+console.log(currentTime < 9 || currentTime > 17);
+
+var currentTime = 7;
+console.log(true || false);
+
+console.log(true || true)
+
+console.log(true || false)
+
+console.log(false || true)
+
+console.log(false || false)
+
+//NOT !//
+
+var petHungry = true;
+
+console.log('Feeding the pet');
+
+console.log("Pet is hungry: ", !petHungry);
+
+console.log("Pet is hungry: ", petHungry);
+
+console.log(petHungry);
+
+var petHungry = true;
+petHungry = !petHungry;
+
+var petHungry = true;
+petHungry = petHungry;
+
+//modulo % para residuo de división//
+
+console.log(22 % 5); // 2
+
+//igualdad ==//
+
+5 == 5
+
+5 == "5"
+
+5 == 6
+
+//igualdad estricta ===//
+
+5 === 5
+
+5 === "5"
+
+//desigualdad !=//
+
+5 != 6
+
+5 != "6"
+
+5 != "5"
+
+//desigualdad estricta !==//
+
+5 !== "5"
+
+5 !== 6
+
+5 !== 5
+
+//concatenar y suma +//
+
+"inter" + "net" // "internet"
+
+"note" + "book" // "notebook"
+
+365 + " days" // "365 days"
+
+12 + " months" // "12 months"
+
+1 + "2"
+
+//asisgnación de suma y concatenación +=//
+
+var mon = 1;
+var tue = 2;
+var wed = 1;
+var thu = 2;
+var fri = 3;
+console.log(mon + tue + wed + thu + fri); // 9
+
+var overtime = 1;
+overtime += 2;
+overtime += 1;
+overtime += 2;
+overtime += 3;
+console.log(overtime); // 9
+
+var longString = "";
+longString += "Once";
+longString += " upon";
+longString += " a";
+longString += " time";
+longString += "...";
+console.log(longString); // "Once upon a time..."
+
+//precedencia y asociatividad de operaciones//
+
+1 * 2 + 3
+
+var num = 10; // the value on the right is assigned to the variable name on the left
+5 > 4 > 3; // the 5 > 4 is evaluated first (to `true`), then true > 3 is evaluated to `false`, because the `true` value is coerced to `1`
