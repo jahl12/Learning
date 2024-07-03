@@ -1,0 +1,41 @@
+// if else//
+
+var age = 32
+if (age >= 65){
+    console.log("Usted obtiene sus ingresos de pensión")
+}else if ( age >= 18 && age < 65 ){
+    console.log("Cada mes recibe un salario")
+}else if (age < 18){
+    console.log("Obtiene una asignación")
+}else {
+    console.log("El valor de la variable no es numérico")
+}
+
+//switch //
+
+var day = "adsfaafs"
+switch (day){
+    case 'Lunes':
+        console.log('Do something');
+        break
+    case 'Martes':
+        console.log('Do something');
+        break
+    case 'Miercoles':
+        console.log('Do something');
+        break
+    case 'Jueves':
+        console.log('Do something');
+        break
+    case 'Viernes':
+        console.log('Do something');
+        break
+    case 'Sabado':
+        console.log('Do something');
+        break
+    case 'Domingo':
+        console.log('Do something');
+        break
+    default:
+       console.log('There is no such day')
+}
