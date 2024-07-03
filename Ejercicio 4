@@ -15,19 +15,19 @@ console.log('Countdown finished')
 var counter = 1
 while (counter < 6){
     console.log(counter);
-    counter = counter +1;
+    counter++;
 }
 console.log('Counting completed');
 
 var counter = 5
 while (counter > 0){
     console.log(counter);
-    counter = counter -1;
+    counter--;
 }
 console.log('Countdown finished');
 
 var counter = 2018
 while (counter < 2023){
     console.log(counter);
-    counter = counter +1;
+    counter++;
 }
