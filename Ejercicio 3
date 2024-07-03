@@ -13,28 +13,28 @@ if (age >= 65){
 
 //switch //
 
-var day = "adsfaafs"
+var day = "Sabado"
 switch (day){
     case 'Lunes':
-        console.log('Do something');
+        console.log('Trabajar');
         break
     case 'Martes':
-        console.log('Do something');
+        console.log('Labor');
         break
     case 'Miercoles':
-        console.log('Do something');
+        console.log('Mitad de semana');
         break
     case 'Jueves':
-        console.log('Do something');
+        console.log('Ya casi descanso');
         break
     case 'Viernes':
-        console.log('Do something');
+        console.log('Ultimo dia');
         break
     case 'Sabado':
-        console.log('Do something');
+        console.log('pasear');
         break
     case 'Domingo':
-        console.log('Do something');
+        console.log('Descansar');
         break
     default:
        console.log('There is no such day')
